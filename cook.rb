@@ -1,14 +1,14 @@
 class Cook < Formula
   desc "command line recipe management"
   homepage "https://github.com/ysim/cook"
-  url "https://github.com/ysim/cook/releases/download/v0.1.0/cook-v0.1.0.tar.gz"
-  sha256 "92a76228f004e6f00ede10eb86c9e2306f53b11f67d5b3081b958c66b45f8466"
+  url "https://github.com/ysim/cook/releases/download/v0.1.0/cook-darwin-v0.1.0.tar.gz"
+  sha256 "f657c8f46d6a4557c4e8d6dba12547569ac71315997724e4913abe9132a0be63"
 
   bottle :unneeded
 
   resource "completion" do
     url "https://github.com/ysim/cook/archive/v0.1.0.tar.gz"
-    sha256 "b59554766f5c00c5e912c663141f8cb62643876373977d8cddb5ba7a01e9833c"
+    sha256 "2d56ddbc64592285991b7bddbac5719f3122fd33d4d735caf32f4249e1633580"
   end
 
   def install
